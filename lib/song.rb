@@ -50,7 +50,7 @@ class Song
     @@all.each do |element|
       names << element.name
     end
-    names
+    names.sort
   end
 
 
