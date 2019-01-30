@@ -46,7 +46,9 @@ class Song
   end
 
   def self.alphabetical
-    binding.pry
+    names = []
+    @@all.each do |element|
+      names << element.name
     @@all.sort
   end
 
