@@ -34,6 +34,6 @@ class Song
       element.name == name
     end
   end
-    
+
 
 end
