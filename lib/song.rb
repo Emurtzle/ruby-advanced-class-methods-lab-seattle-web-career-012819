@@ -49,6 +49,10 @@ class Song
     @@all.sort_by {|obj| obj.name}
   end
 
+  def self.new_from_filename(filename)
+    binding.pry
+  end
+
   def self.destroy_all
     @@all = @@all.clear
   end
