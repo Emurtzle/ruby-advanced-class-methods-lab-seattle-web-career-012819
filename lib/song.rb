@@ -49,7 +49,8 @@ class Song
     names = []
     @@all.each do |element|
       names << element.name
-    @@all.sort
+    end
+    names
   end
 
 
